@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>calculadora</title>
+</head>
+
+<body>
+    <table>
+        <tr class="linea1">
+            <td class="sublinea2"><input type="text" id="display2"></td>
+        </tr>
+        <tr class="linea2">
+            <td class="sublinea1"><input type="text" id="display" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="num7" value="7" onclick="numeros_display(7)"></td>
+            <td><input type="button" id="num8" value="8" onclick="numeros_display(8)"></td>
+            <td><input type="button" id="num9" value="9" onclick="numeros_display(9)"></td>
+            <td><input type="button" id="sumar" value="+" onclick="sumar()"></td>
+            <td><input type="button" id="restar" value="-" onclick="restar()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="num4" value="4" onclick="numeros_display(4)"></td>
+            <td><input type="button" id="num5" value="5" onclick="numeros_display(5)"></td>
+            <td><input type="button" id="num6" value="6" onclick="numeros_display(6)"></td>
+            <td><input type="button" id="dividir" value="/" onclick="dividir()"></td>
+            <td><input type="button" id="multiplicar" value="x" onclick="multiplicar()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" id="num1" value="1" onclick="numeros_display(1)"></td>
+            <td><input type="button" id="num2" value="2" onclick="numeros_display(2)"></td>
+            <td><input type="button" id="num3" value="3" onclick="numeros_display(3)"></td>
+            <td><input type="button" id="igual" value="=" onclick="resultado()"></td>
+            <td><input type="button" id="reset" value="C" onclick="resetear()"></td>
+        </tr>
+    </table>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
